@@ -20,9 +20,7 @@ export default function SideBar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img className="sidebarImg" src="./pictures/aboutme.jpg" alt=""></img>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Quae accusantium alias non exercitationem itaque saepe velit nemo minus commodi
-          adipisci, sapiente nisi cum quia facere.
+        <p>Welcome to my blog! My name is Ronald, am I am here to talk about different topics pertaining Software Engineering.
         </p>
       </div>
       <div className="sidebarTitle">
