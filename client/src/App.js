@@ -13,16 +13,11 @@ import {
 } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "./context/Context";
-// import SinglePost from "./components/singlepost/SinglePost";
-// import Post from "./components/post/Post";
+
 
 function App() {
   const {user} = useContext(Context);
   return (
-    // <BrowserRouter>
-    //   <TopBar></TopBar>
-    //   <Single></Single>
-    // </BrowserRouter>
     <BrowserRouter>
     <TopBar />
       <Routes>
@@ -32,7 +27,6 @@ function App() {
         <Route path="/write" element={user ? <Write /> : <Register />} />
         <Route path="/settings" element={user ? <Settings /> : <Register />} />
         <Route path="/post/:postId" element={<Single />} />
-        {/* <Route path="/post/:postId" element={<SinglePost />} /> */}
       </Routes>
     </BrowserRouter>
   );
