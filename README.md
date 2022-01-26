@@ -1,4 +1,4 @@
-#cd in both client and api
+# cd in both client and api
 Then, inside both directories run "npm start"
 
 Link to blog: https://ronaldblog.netlify.app/
